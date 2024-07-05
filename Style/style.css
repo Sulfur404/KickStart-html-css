@@ -41,8 +41,13 @@ h1{
     font-family: "Gochi Hand", cursive;
         /* text-align: center; */
     width: 150px;
+    transition: all 0.7s;
+    cursor: pointer;
 }
 .parant-btn{
     text-align: center;
     margin: 20px;
+}
+.btn:hover{
+    background-color: blueviolet;
 }
