@@ -3,7 +3,7 @@
     padding: 0;
 }
 h1{
-    color: red;
+    color: rgb(233, 219, 219);
     font-style: oblique;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: underline;
@@ -11,13 +11,33 @@ h1{
     font-size: 30px;
 }
 #head-parant{
-    background-color: rgb(92, 55, 20);
+    /* background-color: rgb(92, 55, 20); */
+    background-image: linear-gradient(45deg,rgb(24, 23, 23),transparent),url(../Image/Coding.jpg);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    background-position: center;
     height: 300px;
     padding: 100px 0;
-    width: 600px;
+    max-width: 600px;
     /* margin-top: 20px;
     margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto; */
     margin: 20px auto;
+}
+.btn{
+    background-color: rgba(158, 190, 97, 0.486);
+    padding: 10px 10px;
+    color: blanchedalmond;
+    border-style: dashed;
+    border-color: rgb(77, 77, 34);
+    border-radius: 6px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif  ;
+    /* text-align: center; */
+    width: 150px;
+}
+.parant-btn{
+    text-align: center;
+    margin: 20px;
 }
