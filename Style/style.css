@@ -1,3 +1,23 @@
-div{
-    background-color: blueviolet;
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color: red;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 30px;
+}
+#head-parant{
+    background-color: rgb(92, 55, 20);
+    height: 300px;
+    padding: 100px 0;
+    width: 600px;
+    /* margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto; */
+    margin: 20px auto;
 }
